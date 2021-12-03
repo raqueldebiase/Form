@@ -61,7 +61,7 @@ body {
   background-image: url(/image/shutterstock_1818027242.jpg);
 }
 
-#container_contact {
+.container_contact {
   display: inline-block;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -69,7 +69,7 @@ body {
   margin: 60px 0px 0px 150px;
 }
 
-#container_contact .form {
+.container_contact form {
   background-color: rgba(255, 255, 255, 0.774);
   text-align: center;
   padding: 40px;
@@ -77,7 +77,7 @@ body {
   border-radius: 30px;
 }
 
-#container_contact .form label {
+.container_contact form label {
   display: block;
   padding: 5px;
   color: grey;
@@ -86,7 +86,7 @@ body {
   letter-spacing: 0.5px;
 }
 
-#container_contact .form input {
+.container_contact form input {
   display: inline-block;
   width: 300px;
   margin: 10px 0 10px 0;
@@ -94,7 +94,7 @@ body {
   border-style: none;
 }
 
-#container_contact .form button {
+.container_contact form button {
   display: inline-block;
   text-align: center;
   background-color: rgba(93, 191, 216, 0.822);

@@ -5,35 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/scss/main.css">
+    <script src="main.js"></script>
 </head>
 <body>
-    <section id="container_contact">
-        <div class="form">
+    <section class="container_contact">
+        <form action="" id="formulario" method="POST" name="formulario">
 
         <label for="yourName">NAME</label>
-        <input type="text" name="yourName" placeholder="example: John">
+        <input type="text" id="yourName" name="yourName" placeholder="example: John">
 
-        <label for="yourName">LAST NAME</label>
-        <input type="text" name="yourName" placeholder="example: Doe">
+        <label for="yourLastName">LAST NAME</label>
+        <input type="text" id="yourLastName" name="yourLastName" placeholder="example: Doe">
 
         <label for="Genre">GENRE</label>
-        <input list="aboutList" name="aboutList"><br>
-			<datalist id="aboutList">
+        <input list="Genre" id="yourGenre" name="yourGenre"><br>
+			<datalist id="Genre">
 				<option value="Female"></option>
 				<option value="Male"></option>
 				<option value="Other"></option>
 				<option value="Prefer not to determine"></option>
 			</datalist>
-        
-        
+         
         <label for="yourEmail">E-MAIL ADDRESS</label>
         <input type="email" id="yourEmail" name="yourEmail" placeholder="example: example@example.com">
         
         <label for="password">PASSWORD</label>
         <input type="password" id="yourPassword" name="yourPassword">
           
-        <button type="button">SUBMIT</button>
-        </div>
+        <button type="button" class="botao" onclick="validar()">SUBMIT</button>
+        </form>
       </section>
 </body>
 </html>
